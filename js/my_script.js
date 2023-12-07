@@ -29,4 +29,3 @@ const illuminaCella = function () {
   }
 };
 generaTabellone();
-// illuminaCella();
