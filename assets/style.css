@@ -1,0 +1,48 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: azure;
+  display: inline-block;
+}
+
+td {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 18px;
+  /* transition: background-color 0.3s; */
+}
+#tabellone {
+  display: flex;
+  justify-content: center;
+}
+button {
+  display: flex;
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  background-color: blueviolet;
+  opacity: 0.5;
+  /* transition: 1; */
+}
+button:hover {
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.illumina-numero {
+  background-color: yellow;
+  border-radius: 50%;
+  transition: 0.5s;
+}
